@@ -1,10 +1,12 @@
 from setuptools import setup, find_packages
-import os
+from pathlib import Path
 
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.1.0'
+VERSION = '0.1.7'
 DESCRIPTION = 'An implementation of the Tic Tac Toe game rules'
-LONG_DESCRIPTION = 'An engine that provides full implementation of the Tic Tac Toe Game'
+# LONG_DESCRIPTION = 'An engine that provides full implementation of the Tic Tac Toe Game'
 
 # Setting up
 setup(
@@ -14,9 +16,9 @@ setup(
 	author_email="<sebastian.mendoza.clases@gmail.com>",
 	description=DESCRIPTION,
 	long_description_content_type="text/markdown",
-	long_description=LONG_DESCRIPTION,
+	long_description=long_description,
 	packages=find_packages(),
-	install_requires=['typing', 'random'],
+	install_requires=[],
 	keywords=['python', 'tic-tac-toe', 'tictactoe', 'game', 'engine'],
 	classifiers=[
 		"Development Status :: 2 - Pre-Alpha",

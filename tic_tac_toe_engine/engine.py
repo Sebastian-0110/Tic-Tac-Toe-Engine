@@ -1,8 +1,8 @@
 from random import choice
 from typing import Union
 
-from exceptions import InvalidMovementError, InvalidPositionError
-from position import Position
+from .exceptions import InvalidMovementError, InvalidPositionError
+from .position import Position
 
 
 
