@@ -4,7 +4,7 @@ from pathlib import Path
 this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
-VERSION = '0.1.7'
+VERSION = '0.1.0'
 DESCRIPTION = 'An implementation of the Tic Tac Toe game rules'
 # LONG_DESCRIPTION = 'An engine that provides full implementation of the Tic Tac Toe Game'
 
