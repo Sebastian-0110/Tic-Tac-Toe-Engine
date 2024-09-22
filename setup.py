@@ -27,5 +27,9 @@ setup(
 		"Operating System :: Unix",
 		"Operating System :: MacOS :: MacOS X",
 		"Operating System :: Microsoft :: Windows",
-	]
+	],
+	project_urls={
+	  'Source': 'https://github.com/Sebastian-0110/Tic-Tac-Toe-Engine/',
+	}
+
 )
