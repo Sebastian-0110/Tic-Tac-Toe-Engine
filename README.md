@@ -2,8 +2,8 @@
 # Tic Tac Toe Engine
 
 ![Image](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Image](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Image](https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D)
+[![Image](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+![Image](https://badgen.net/pypi/v/tic-tac-toe-engine)
 
 
 Implementation of the rules of the game "Tic tac toe".
